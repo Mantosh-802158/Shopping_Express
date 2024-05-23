@@ -1,0 +1,1 @@
+# This is a Shopping Platform where user select their favourite products and can add to their own cart.

@@ -1,0 +1,34 @@
+#main-div{
+    margin-top:10px;
+    padding-bottom:1px;
+    background-color: slategray;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-around;
+    padding:3px;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+}
+.flex-div a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding:5px;
+    
+}
+.flex-div a:hover{
+    color:lightblue;
+    text-decoration: underline;
+}
+#main-div p{
+    text-align: center;
+    color:beige
+}
+@media  screen and (max-width:435px) {
+    .flex-div{
+        flex-direction: column;
+        /* justify-content: left; */
+        align-items: left;
+    }
+}

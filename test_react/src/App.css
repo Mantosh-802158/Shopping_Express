@@ -1,0 +1,99 @@
+.app-body-div {
+  background-color: rgb(61, 61, 61);
+}
+.product-list {
+  display: grid;
+  /* justify-content: space-around; */
+  gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  margin: auto;
+  /* overflow: hidden; */
+  height: 400px;
+  overflow: scroll;
+  justify-content: center;
+}
+.product-list::-webkit-scrollbar {
+  width: 0px; /* width of the entire scrollbar */
+}
+
+.product-list::-webkit-scrollbar-track {
+  background: rgb(66, 66, 66);
+} /* color of the tracking area*/
+
+.product-list::-webkit-scrollbar-thumb {
+  background-color: rgb(66, 66, 66); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 0px solid orange; /* creates padding around scroll thumb */
+}
+#logo-div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.input-bar {
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  padding: 4px;
+  font-size: 16px;
+  /* background: none; */
+}
+
+.input-field {
+  background: none;
+  color: white;
+}
+.input-field:focus{
+    outline:none;
+}
+.search-btn {
+  background-color: #0fa4af;
+  border: none;
+  margin-left: 4px;
+  color: white;
+}
+.search-btn:hover {
+  cursor: pointer;
+}
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-image: linear-gradient(rgb(203, 1, 78),rgb(2, 97, 193)); */
+  background-color: rgb(61, 61, 61);
+  padding: 5px;
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+  /* border-radius: 5px; */
+}
+.input-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 435px) {
+  .product-list {
+    grid-template-columns: auto;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-div {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 650px) and (min-width: 435px) {
+  .product-list {
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 840px) and (min-width: 650px) {
+  .product-list {
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin: auto;
+  }
+}

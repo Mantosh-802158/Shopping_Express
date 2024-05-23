@@ -1,0 +1,74 @@
+.main-container-div{
+    width:70%;
+    margin:auto;
+    margin-top: 10%;
+    padding:30px 30px 60px 30px;
+    background-color: rgba(0, 146, 214, 0.784);
+    border-radius: 10px;
+}
+.main-container-div button{
+    display: block;
+    margin:auto;
+    background-color: rgb(230, 119, 1);
+    border:none;
+    border-radius: 5px;
+    padding:8px 20px 8px 20px;
+    color:white;
+}
+.main-container-div button:hover{
+    cursor: pointer;
+}
+.container-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    
+}
+
+.sign-up-child-div{
+    width:100%;
+    color:white;
+    padding:10px;
+}
+.sign-up-child-div label{
+    display: inline-block;
+    width:40%;
+}
+.sign-up-child-div input{
+    background: none;
+    border-radius:5px;
+    padding:4px;
+    margin:4px;
+    color:rgb(230, 228, 228);
+    border:1px solid rgb(230, 228, 228);
+}
+.sign-up-child-div input:focus{
+    outline:none;
+}
+@media screen and (min-width:750px) and (max-width:920px) {
+    .main-container-div{
+        width:80%;
+        margin:50px auto 80px auto;
+    }
+}
+@media screen and (max-width:650px) {
+    .container-div{
+        flex-direction: column;
+    }
+    .main-container-div{
+        margin:50px auto 80px auto;
+
+    }
+}
+@media screen and (max-width:430px) {
+    .main-container-div{
+        width:100%;
+        padding:10px;
+        margin:50px auto 80px auto;
+    }
+    .sign-up-child-div label{
+        display: inline-block;
+        width:40%;
+    }
+}

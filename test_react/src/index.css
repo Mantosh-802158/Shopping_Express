@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/colorful-wallpaper-background-multicolored-generative-ai_91128-2257.jpg");
+    background-size: cover;
+    height: 100%;
+    /* background-size:100%; */
+    background-repeat: no-repeat;
+    /* background-color: rgb(66,66,66); */
+    margin:0px;
+    padding:0px;
+}
+body::-webkit-scrollbar {
+    width: 0px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(66,66,66); 
+         }       /* color of the tracking area*/
+   
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(66,66,66);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 0px solid orange;  /* creates padding around scroll thumb */
+  }

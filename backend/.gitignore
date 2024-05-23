@@ -1,0 +1,3 @@
+# ignore ALL .env 
+*.env
+node_modules/

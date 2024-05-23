@@ -1,0 +1,31 @@
+.Test1Div{
+    position:absolute;
+    padding:5px;
+    left:20%; 
+    top:15%;
+    width:60%;
+    background-color:rgba(32, 178, 171, 0.995);
+    
+    border-radius: 10px;
+    color:aliceblue;
+    
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin:auto; */
+}
+.desc-div{
+    width:80%;
+}
+#detail-image{
+    width:100px;
+    border-radius: 4px;
+}
+@media screen and(max-width:700px) {
+    .Test1Div{
+        width:100%;
+    }
+}
